@@ -1,0 +1,86 @@
+<style>
+/*
+.search-button{
+    background-color: aquamarine;
+    z-index: 999; 
+} 
+*/
+body{
+    font-family: 'Open Sans', Roboto, Oxygen, Ubuntu, sans-serif;
+    background-image: url('../images/nasa-earth-shot.jpg') !important;
+    background-position: center;
+    width: 100%;
+    height: 100hv;
+}
+h1,h2,h3{
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: .1rem;
+}
+.fs-5{
+    font-size: 1.2rem !important;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: #1e1e20;
+    padding: 4rem 7rem;
+    gap: 2rem;
+    border-radius: 2px;
+}
+.card{
+    display: flex;
+    justify-content: center !important;
+    min-width: 360px;
+    width: 25%;
+    height: auto;
+    max-width: 500px;
+    background-color: #252529;
+    border-radius: 15px;
+    padding: 1.5rem .5rem .5rem 1rem !important
+}
+
+</style>
+
+
+
+<div class="d-flex my-2">
+<h1 class="fs-2 mx-auto">This is my handlebars Home page - <p class="fs-5 text-danger">{{stuff}}</p> </h1>
+
+</div>
+
+
+           
+<div class="card-container">
+        <article class="card px-2">
+        <h2 class="title text-white fs-5">🛣 Expressive route syntax</h2>
+        <p class="details text-secondary">Define static and dynamic routes with an intuitive and powerful syntax.</p>
+    </article>
+
+    <article class="card">
+        <h2 class="title text-white fs-5">🛑 Navigation control</h2>
+        <p class="details text-secondary">Intercept any navigation and precisely control its outcome.</p>
+    </article>
+
+    <article class="card">
+        <h2 class="title text-white fs-5">🧱 Component configuration</h2>
+        <p class="details text-secondary">Map each route to the component that should display.</p><!---->
+    </article>
+
+    <article class="card">
+        <h2 class="title text-white fs-5">🔌 History modes</h2>
+        <p class="details text-secondary">Choose between HTML5, Hash or Memory history modes.</p><!---->
+    </article>
+
+    <article class="card">
+        <h2 class="title text-white fs-5">🎚 Scroll control</h2>
+        <p class="details text-secondary">Precisely control the scroll position in every page.</p><!---->
+    </article>
+
+    <article class="card">
+        <h2 class="title text-white fs-5">🌐 Automatic Encoding</h2>
+        <p class="details text-secondary">Directly use unicode characters (你好) in your code.</p><!---->
+    </article>
+</div>

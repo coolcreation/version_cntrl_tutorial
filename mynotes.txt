@@ -1,0 +1,21 @@
+mkdir project
+cd project
+npm init -y
+npm i express
+npm i axios
+npm i puppeteer
+npm i cheerio
+
+----------------------
+npm install -d nodemon    ( the -d flag say hey, in devolopment use nodemon but not in production use)
+
+in package.json modify this:
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+
+Now all we have to type in terminal is npm run dev to start the server
+----------------------
+
+npm install express-handlebars
